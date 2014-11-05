@@ -16,6 +16,8 @@
 		F18A7D5D1A09BA1F001F551F /* WindowLightControlAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D5C1A09BA1F001F551F /* WindowLightControlAppTests.m */; };
 		F18A7D6B1A09BAD4001F551F /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D681A09BAD4001F551F /* CBUUID+StringExtraction.m */; };
 		F18A7D6C1A09BAD4001F551F /* UARTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D6A1A09BAD4001F551F /* UARTPeripheral.m */; };
+		F18A7D771A09CDBF001F551F /* NSData+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D741A09CDBF001F551F /* NSData+hex.m */; };
+		F18A7D781A09CDBF001F551F /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D761A09CDBF001F551F /* NSString+hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		F18A7D681A09BAD4001F551F /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
 		F18A7D691A09BAD4001F551F /* UARTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARTPeripheral.h; sourceTree = "<group>"; };
 		F18A7D6A1A09BAD4001F551F /* UARTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARTPeripheral.m; sourceTree = "<group>"; };
+		F18A7D731A09CDBF001F551F /* NSData+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+hex.h"; sourceTree = "<group>"; };
+		F18A7D741A09CDBF001F551F /* NSData+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+hex.m"; sourceTree = "<group>"; };
+		F18A7D751A09CDBF001F551F /* NSString+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hex.h"; sourceTree = "<group>"; };
+		F18A7D761A09CDBF001F551F /* NSString+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,10 @@
 		F18A7D3F1A09BA1F001F551F /* WindowLightControlApp */ = {
 			isa = PBXGroup;
 			children = (
+				F18A7D731A09CDBF001F551F /* NSData+hex.h */,
+				F18A7D741A09CDBF001F551F /* NSData+hex.m */,
+				F18A7D751A09CDBF001F551F /* NSString+hex.h */,
+				F18A7D761A09CDBF001F551F /* NSString+hex.m */,
 				F18A7D661A09BAD4001F551F /* BLE */,
 				F18A7D441A09BA1F001F551F /* AppDelegate.h */,
 				F18A7D451A09BA1F001F551F /* AppDelegate.m */,
@@ -237,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18A7D771A09CDBF001F551F /* NSData+hex.m in Sources */,
 				F18A7D491A09BA1F001F551F /* ViewController.m in Sources */,
+				F18A7D781A09CDBF001F551F /* NSString+hex.m in Sources */,
 				F18A7D6C1A09BAD4001F551F /* UARTPeripheral.m in Sources */,
 				F18A7D461A09BA1F001F551F /* AppDelegate.m in Sources */,
 				F18A7D431A09BA1F001F551F /* main.m in Sources */,
