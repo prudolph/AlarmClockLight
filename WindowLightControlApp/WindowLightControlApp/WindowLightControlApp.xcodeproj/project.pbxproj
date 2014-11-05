@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18A7D431A09BA1F001F551F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D421A09BA1F001F551F /* main.m */; };
+		F18A7D461A09BA1F001F551F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D451A09BA1F001F551F /* AppDelegate.m */; };
+		F18A7D491A09BA1F001F551F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D481A09BA1F001F551F /* ViewController.m */; };
+		F18A7D4C1A09BA1F001F551F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D4A1A09BA1F001F551F /* Main.storyboard */; };
+		F18A7D4E1A09BA1F001F551F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D4D1A09BA1F001F551F /* Images.xcassets */; };
+		F18A7D511A09BA1F001F551F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18A7D4F1A09BA1F001F551F /* LaunchScreen.xib */; };
+		F18A7D5D1A09BA1F001F551F /* WindowLightControlAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A7D5C1A09BA1F001F551F /* WindowLightControlAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18A7D571A09BA1F001F551F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18A7D351A09BA1F001F551F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F18A7D3C1A09BA1F001F551F;
+			remoteInfo = WindowLightControlApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F18A7D3D1A09BA1F001F551F /* WindowLightControlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindowLightControlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18A7D411A09BA1F001F551F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18A7D421A09BA1F001F551F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F18A7D441A09BA1F001F551F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F18A7D451A09BA1F001F551F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F18A7D471A09BA1F001F551F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F18A7D481A09BA1F001F551F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F18A7D4B1A09BA1F001F551F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F18A7D4D1A09BA1F001F551F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F18A7D501A09BA1F001F551F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F18A7D561A09BA1F001F551F /* WindowLightControlAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowLightControlAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18A7D5B1A09BA1F001F551F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18A7D5C1A09BA1F001F551F /* WindowLightControlAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowLightControlAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18A7D3A1A09BA1F001F551F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D531A09BA1F001F551F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18A7D341A09BA1F001F551F = {
+			isa = PBXGroup;
+			children = (
+				F18A7D3F1A09BA1F001F551F /* WindowLightControlApp */,
+				F18A7D591A09BA1F001F551F /* WindowLightControlAppTests */,
+				F18A7D3E1A09BA1F001F551F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F18A7D3E1A09BA1F001F551F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D3D1A09BA1F001F551F /* WindowLightControlApp.app */,
+				F18A7D561A09BA1F001F551F /* WindowLightControlAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F18A7D3F1A09BA1F001F551F /* WindowLightControlApp */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D441A09BA1F001F551F /* AppDelegate.h */,
+				F18A7D451A09BA1F001F551F /* AppDelegate.m */,
+				F18A7D471A09BA1F001F551F /* ViewController.h */,
+				F18A7D481A09BA1F001F551F /* ViewController.m */,
+				F18A7D4A1A09BA1F001F551F /* Main.storyboard */,
+				F18A7D4D1A09BA1F001F551F /* Images.xcassets */,
+				F18A7D4F1A09BA1F001F551F /* LaunchScreen.xib */,
+				F18A7D401A09BA1F001F551F /* Supporting Files */,
+			);
+			path = WindowLightControlApp;
+			sourceTree = "<group>";
+		};
+		F18A7D401A09BA1F001F551F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D411A09BA1F001F551F /* Info.plist */,
+				F18A7D421A09BA1F001F551F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18A7D591A09BA1F001F551F /* WindowLightControlAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D5C1A09BA1F001F551F /* WindowLightControlAppTests.m */,
+				F18A7D5A1A09BA1F001F551F /* Supporting Files */,
+			);
+			path = WindowLightControlAppTests;
+			sourceTree = "<group>";
+		};
+		F18A7D5A1A09BA1F001F551F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18A7D5B1A09BA1F001F551F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F18A7D3C1A09BA1F001F551F /* WindowLightControlApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18A7D601A09BA1F001F551F /* Build configuration list for PBXNativeTarget "WindowLightControlApp" */;
+			buildPhases = (
+				F18A7D391A09BA1F001F551F /* Sources */,
+				F18A7D3A1A09BA1F001F551F /* Frameworks */,
+				F18A7D3B1A09BA1F001F551F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindowLightControlApp;
+			productName = WindowLightControlApp;
+			productReference = F18A7D3D1A09BA1F001F551F /* WindowLightControlApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18A7D551A09BA1F001F551F /* WindowLightControlAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18A7D631A09BA1F001F551F /* Build configuration list for PBXNativeTarget "WindowLightControlAppTests" */;
+			buildPhases = (
+				F18A7D521A09BA1F001F551F /* Sources */,
+				F18A7D531A09BA1F001F551F /* Frameworks */,
+				F18A7D541A09BA1F001F551F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18A7D581A09BA1F001F551F /* PBXTargetDependency */,
+			);
+			name = WindowLightControlAppTests;
+			productName = WindowLightControlAppTests;
+			productReference = F18A7D561A09BA1F001F551F /* WindowLightControlAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18A7D351A09BA1F001F551F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = PRudolph;
+				TargetAttributes = {
+					F18A7D3C1A09BA1F001F551F = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F18A7D551A09BA1F001F551F = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F18A7D3C1A09BA1F001F551F;
+					};
+				};
+			};
+			buildConfigurationList = F18A7D381A09BA1F001F551F /* Build configuration list for PBXProject "WindowLightControlApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18A7D341A09BA1F001F551F;
+			productRefGroup = F18A7D3E1A09BA1F001F551F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F18A7D3C1A09BA1F001F551F /* WindowLightControlApp */,
+				F18A7D551A09BA1F001F551F /* WindowLightControlAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18A7D3B1A09BA1F001F551F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D4C1A09BA1F001F551F /* Main.storyboard in Resources */,
+				F18A7D511A09BA1F001F551F /* LaunchScreen.xib in Resources */,
+				F18A7D4E1A09BA1F001F551F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D541A09BA1F001F551F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18A7D391A09BA1F001F551F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D491A09BA1F001F551F /* ViewController.m in Sources */,
+				F18A7D461A09BA1F001F551F /* AppDelegate.m in Sources */,
+				F18A7D431A09BA1F001F551F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18A7D521A09BA1F001F551F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18A7D5D1A09BA1F001F551F /* WindowLightControlAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18A7D581A09BA1F001F551F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F18A7D3C1A09BA1F001F551F /* WindowLightControlApp */;
+			targetProxy = F18A7D571A09BA1F001F551F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18A7D4A1A09BA1F001F551F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18A7D4B1A09BA1F001F551F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F18A7D4F1A09BA1F001F551F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18A7D501A09BA1F001F551F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18A7D5E1A09BA1F001F551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F18A7D5F1A09BA1F001F551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18A7D611A09BA1F001F551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WindowLightControlApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F18A7D621A09BA1F001F551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WindowLightControlApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F18A7D641A09BA1F001F551F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WindowLightControlAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowLightControlApp.app/WindowLightControlApp";
+			};
+			name = Debug;
+		};
+		F18A7D651A09BA1F001F551F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WindowLightControlAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindowLightControlApp.app/WindowLightControlApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18A7D381A09BA1F001F551F /* Build configuration list for PBXProject "WindowLightControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D5E1A09BA1F001F551F /* Debug */,
+				F18A7D5F1A09BA1F001F551F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18A7D601A09BA1F001F551F /* Build configuration list for PBXNativeTarget "WindowLightControlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D611A09BA1F001F551F /* Debug */,
+				F18A7D621A09BA1F001F551F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F18A7D631A09BA1F001F551F /* Build configuration list for PBXNativeTarget "WindowLightControlAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18A7D641A09BA1F001F551F /* Debug */,
+				F18A7D651A09BA1F001F551F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18A7D351A09BA1F001F551F /* Project object */;
+}
