@@ -9,3 +9,5 @@ Features:
 -Control over how long the lights stay on
 -Force the light to turn on without disrupting the alarms. 
 
+
+![alt tag](https://github.com/prudolph/BluetoothWindowLight/blob/master/WindowLightArduino/WindowLight/WindowLight_bb.jpg)
